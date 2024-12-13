@@ -155,6 +155,11 @@ backend
 
   <br><br/>
 
+## 🔗 배포 링크
+[바로 가기](http://jogakzip-kcc.s3-website.ap-northeast-2.amazonaws.com/)
+- 현재 중지 상태
+
+<br><br/>
 
 ## 🛠️ 기술 스택
 ### ✔️Front-end
