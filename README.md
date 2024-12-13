@@ -7,6 +7,13 @@
 개발기간: 2024.08 ~ 2024.09
 <br/> <br/>
 
+## 🤝 Team
+|<img src="https://avatars.githubusercontent.com/u/147029375?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/144078388?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/155574607?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|
+|김한얼[@Kimhaneol12](https://github.com/Kimhaneol12) |조예림[@YeRimmm-Cho](https://github.com/YeRimmm-Cho)|최민기[@mkchoii](https://github.com/mkchoii)|
+|백엔드 |프론트엔드 및 배포 |백엔드 및 배포 |  
+
+<br><br/>
 
 ## 🔍 주요 기능
 
@@ -59,7 +66,7 @@
   - 정렬: 최신순, 댓글 순, 공감 순
   - 검색: 제목, 태그를 기준으로 검색 가능
 
-#### 게득
+#### 배지 획득
 - **배지 종류**:
   - 7일 연속 추억 등록
   - 그룹 공감 수 1만 이상
@@ -99,13 +106,55 @@
 
   <br><br>
 
-## 🤝 Team
-|<img src="https://avatars.githubusercontent.com/u/147029375?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/144078388?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/155574607?v=4" width="150" height="150"/>|
-|:-:|:-:|:-:|
-|김한얼[@Kimhaneol12](https://github.com/Kimhaneol12) |조예림[@YeRimmm-Cho](https://github.com/YeRimmm-Cho)|최민기[@mkchoii](https://github.com/mkchoii)|
-|백엔드 |프론트엔드 및 배포 |백엔드 및 배포 |  
+## 📂 프로젝트 파일구조
+### ✔️Front-end
+```
+frontend
+ ┣ build
+ ┣ node_modules
+ ┣ public
+ ┃ ┗ index.html
+ ┣ src
+ ┃ ┣ api
+ ┃ ┣ assets
+ ┃ ┣ components
+ ┃ ┣ pages
+ ┃ ┣ index.js
+ ┃ ┗ Main.js
+ ┣ .gitignore
+ ┣ package-lock.json
+ ┣ package.json
+ ┗ README.md
+```
+
+
+### ✔️Back-end
+```
+backend
+ ┣ http
+ ┃ ┣ comment.http
+ ┃ ┣ group.http
+ ┃ ┗ post.http
+ ┣ models
+ ┃ ┣ commentModel.js
+ ┃ ┣ database.sqlite
+ ┃ ┣ groupModel.js
+ ┃ ┗ postModel.js
+ ┣ src
+ ┃ ┣ controllers
+ ┃ ┃ ┣ commentController.js
+ ┃ ┃ ┣ groupController.js
+ ┃ ┃ ┣ imageController.js
+ ┃ ┃ ┗ postController.js
+ ┃ ┗ app.js
+ ┣ uploads
+ ┣ .gitignore
+ ┣ package-lock.json
+ ┗ package.json
+```
 
   <br><br/>
+
 
 ## 🛠️ 기술 스택
 ### ✔️Front-end
